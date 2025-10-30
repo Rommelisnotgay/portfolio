@@ -15,11 +15,11 @@ btn.addEventListener("click",() => {
     let msg = document.querySelector(".msg");
 
     let url = `https://wa.me/201060496849?text=
-    My Name Is: ${name}%0A
-    My Email Is: ${email}%0A
-    My Phone Number Is: ${number}%0A
-    I'm: ${sub}%0A
-    Message: ${msg}`;
+    My Name Is: ${name.value}%0A
+    My Email Is: ${email.value}%0A
+    My Phone Number Is: ${number.value}%0A
+    I'm: ${sub.value}%0A
+    Message: ${msg.value}`;
 
     window.open(url , "_blank")
     name.value = "";
